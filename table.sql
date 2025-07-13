@@ -18,3 +18,7 @@ SELECT MIN(Age) FROM Employees;
 
 SELECT* FROM Employees
 WHERE Age <35  AND Department = 'Marketing';
+
+SELECT COUNT(Name)  AS  NUMBER_OF_EMPLOYEES FROM Employees;
+SELECT AVG(Age)  AS AVERAGE_AGE FROM Employees;
+SELECT SUM(Age) AS SUM_OF_AGES FROM Employees;
